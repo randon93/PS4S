@@ -45,10 +45,22 @@ p{
     margin: 50px;
 }
 
-.formu form a img:hover {
-    width: 25%;
-}
+.formu .ini:hover img{
+  display: none;
 
+}
+.escon{
+    display: none;
+}
+.formu .ini:hover .escon{
+  transform: translate(95px, 0px);
+  -ms-transform: translate(95px, 0px);
+  -moz-transform: translate(95px, 0px);
+  -webkit-transform: translate(95px, 0px);
+  -o-transform: translate(95px, 0px);
+  display: block;
+  width: 25%;
+}
 
 #sesionUser {
     width: 255px;
